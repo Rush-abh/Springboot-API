@@ -21,13 +21,13 @@ public class TransactionController {
 
 	@GetMapping(path = "/", produces = "application/json")
 	public Transactions getTransaction() {
-		System.out.println("In request");
+		//System.out.println("In request");
 		return transDao.getAllTransactions();
 	}
 
 	@GetMapping(path = "/acc", produces = "application/json")
 	public List<Transaction> getTransaction(@RequestParam(value = "no", defaultValue = "585309209") String acc) {
-		System.out.println("In request");
+		//System.out.println("In request");
 		return transDao.getAccTransactions(Integer.parseInt(acc));
 	}
 
