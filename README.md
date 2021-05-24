@@ -1,5 +1,5 @@
 # Account Information API
-REST API project in Java Springboot
+Java Springboot API
  ##### Developed By: 
 [Rushabh Pancholi](https://www.linkedin.com/in/rushabh-pancholi-62235b166/)
 
